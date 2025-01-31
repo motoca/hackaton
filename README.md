@@ -20,13 +20,13 @@ https://iaexpert.academy/2020/10/13/deteccao-de-objetos-com-yolo-uma-abordagem-m
 - python detect.py
 
 ### Tempo de execução do treinamento
-#### 100 epochs completed in 14.262 hours.
-#### Optimizer stripped from mps_train/exp7/weights/last.pt, 14.5MB
-#### Optimizer stripped from mps_train/exp7/weights/best.pt, 14.5MB
+- 100 epochs completed in 14.262 hours.
+- Optimizer stripped from mps_train/exp7/weights/last.pt, 14.5MB
+- Optimizer stripped from mps_train/exp7/weights/best.pt, 14.5MB
 
 Validating mps_train/exp7/weights/best.pt...
 Fusing layers... 
-#### Model summary: 157 layers, 7023610 parameters, 0 gradients, 15.8 GFLOPs
+Model summary: 157 layers, 7023610 parameters, 0 gradients, 15.8 GFLOPs
                  Class     Images  Instances          P          R      mAP50   mAP50-95: 100%|██████████| 5/5 [00:29<00:00, 
                    all        158         76     0.0849      0.105     0.0434     0.0112
                  knife        158         76     0.0849      0.105     0.0434     0.0112
