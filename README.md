@@ -2,7 +2,7 @@
 Projeto final Hackaton FIAP
 
 ## Modelo YOLOv5
-https://universe.roboflow.com/ai-zone/weapon-detection-rylag-rtqjy/dataset/1/download/yolov5pytorch
+https://github.com/ultralytics/yolov5/
 
 ## Datasets e Images
 https://storage.googleapis.com/openimages/web/visualizer/index.html?type=detection&set=train&c=%2Fm%2F04ctx
