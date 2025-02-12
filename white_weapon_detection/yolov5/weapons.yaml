@@ -1,0 +1,5 @@
+train: ../datasets/weapons/images/train/
+val: ../datasets/weapons/images/val/
+
+nc: 5  # número de classes
+names: ['knife', 'scissors', 'dagger', 'pocketknife', 'other']
