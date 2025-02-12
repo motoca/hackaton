@@ -309,7 +309,15 @@ def run(
                     vid_writer[i].write(im0)
 
         # Print time (inference-only)
-        LOGGER.info(f"{s}{'' if len(det) else '(no detections), '}{dt[1].dt * 1e3:.1f}ms")
+        weaponDetected = False
+        for weaponType in ['knife', 'scissors', 'dagger', 'pocketknife', 'other']:
+            if weaponType in s:
+                weaponDetected = True
+
+        if weaponDetected:
+            LOGGER.info(f"{s}{'' if len(det) else '(no detections), '}{dt[1].dt * 1e3:.1f}ms")
+            LOGGER.info(f"Alerta!!!! Material cortante detectado!!!!")
+            # Colocar código de envio de email
 
     # Print results
     t = tuple(x.t / seen * 1e3 for x in dt)  # speeds per image
