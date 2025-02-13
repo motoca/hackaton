@@ -1,6 +1,17 @@
 # hackaton
 Projeto final Hackaton FIAP
 
+
+****
+### Grupo 12
+#### Componentes
+* Silas Pereira Costa - RM355822
+* Wesley Gomes Santos - RM355677
+
+
+
+
+
 ## Modelo YOLOv5
 https://github.com/ultralytics/yolov5/
 
