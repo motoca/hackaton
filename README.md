@@ -1,4 +1,4 @@
-# Hackaton - Detecção de materiais cortantes
+# Hackaton - Detecção de Materiais Cortantes
 Projeto final FIAP - IA PARA DEVS
 
 
