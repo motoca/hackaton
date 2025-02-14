@@ -9,15 +9,32 @@ Projeto final Hackaton FIAP
 * Wesley Gomes Santos - RM355677
 
 
-
-
-
-## Modelo YOLOv5
+## Modelo YOLOv5x
 https://github.com/ultralytics/yolov5/
+
+## Fluxo utilizado para o desenvolvimento da solução
+* Busca de imagens e preparação do DATASET no formado to YOLO
+* ├── datasets/
+│   └── weapons/
+│       ├── images/
+│       │   ├── train/
+│       │   └── val/
+│       └── labels/
+│           ├── train/
+│           └── val/
+- BAIXAR O YOLOV5X
+- MONTAR A ESTRUTRA DO DATASET NO FORMATO DO YOLO
+- CONFIGURAR OS ARQUIVOS PARA PERSONALIZAR A EXECUÇÃO
+- EXECUTAR O TREINAMENTO COM O DATASET DE ARMAS BRANCAS
+- APOTAR PARA O ARQUIVO DO MODELO TREINADO
+- EXECUTAR A DETECÇÃO 
+- IDENTIFICAR / INFERENCIA E MARCAR O OBJETO SUSPEITO
+- ENVIAR NOTIFICAÇÃO COM A IMAGEM SUSPEITA
 
 ## Datasets e Images
 https://storage.googleapis.com/openimages/web/visualizer/index.html?type=detection&set=train&c=%2Fm%2F04ctx
 https://universe.roboflow.com/ai-zone/weapon-detection-rylag-rtqjy/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true
+
 
 #### Fontes de pesquisa
 https://iaexpert.academy/2020/10/13/deteccao-de-objetos-com-yolo-uma-abordagem-moderna/
@@ -26,7 +43,7 @@ https://iaexpert.academy/2020/10/13/deteccao-de-objetos-com-yolo-uma-abordagem-m
 ### Como executar o projeto
 - Python 3.8 ou superior
 - git clone https://github.com/motoca/hackaton.git
-- cd yolov5
+- cd white_weapon_detection
 - pip install -r requirements.txt
 - python detect.py
 
