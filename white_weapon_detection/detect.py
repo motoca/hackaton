@@ -8,7 +8,7 @@ warnings.filterwarnings('ignore')
 def run_detection(source):
     print("DETECTANDO......")
     results = run(
-        weights='yolov5x.pt', #best.pt
+        weights='best.pt',
         source=source,
         imgsz=[640,640],
         conf_thres=0.5,
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     if tipoDetection == '1': # Para imagem
         run_detection(f'./data/images/{nameFile}') #img-teste-faca.jpg
     elif tipoDetection == '2': #Para vídeo
-        cap = cv2.VideoCapture(f'video2.mp4') #video2.mp4
+        cap = cv2.VideoCapture(f'./data/videos/{nameFile}') #video2.mp4
         while cap.isOpened():
             ret, frame = cap.read()
             if not ret:
