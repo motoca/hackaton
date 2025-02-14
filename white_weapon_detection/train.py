@@ -8,8 +8,8 @@ if not sys.warnoptions:
     
 # Configurações
 config = {
-    'epochs': 1,
-    'batch-size': 16,
+    'epochs': 30,
+    'batch-size': 32,
     'img-size': 640,
     'data': 'weapons.yaml',
     'cfg': 'yolov5x.yaml',
