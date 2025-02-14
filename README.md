@@ -1,4 +1,4 @@
-# Hackaton - Detecção de materiais cortantes
+# Hackaton - Detecção de Materiais Cortantes
 Projeto final FIAP - IA PARA DEVS
 
 
@@ -40,6 +40,8 @@ https://github.com/ultralytics/yolov5/
 
 8 - Gerar a pasta de resultados com o arquivo de saída.
 
+9 - Video de apresentação do projeto (https://youtu.be/qztjWx1qC34)
+
 ## Datasets e Images
 https://storage.googleapis.com/openimages/web/visualizer/index.html?type=detection&set=train&c=%2Fm%2F04ctx
 https://universe.roboflow.com/ai-zone/weapon-detection-rylag-rtqjy/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true
@@ -50,11 +52,7 @@ https://iaexpert.academy/2020/10/13/deteccao-de-objetos-com-yolo-uma-abordagem-m
 
 
 ### Como executar o projeto
-- Python 3.8 ou superior
-- git clone https://github.com/motoca/hackaton.git
-- cd white_weapon_detection
-- pip install -r requirements.txt
-- python detect.py
+Usar o arquivo hachaton-final.ipynb no Google Collab
 
 ### Tempo de execução do treinamento
 with torch.cuda.amp.autocast(amp):
