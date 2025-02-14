@@ -14,7 +14,8 @@ config = {
     'data': 'weapons.yaml',
     'cfg': 'yolov5x.yaml',
     'weights': 'yolov5x.pt',
-    'name': 'white-weapon_detection'
+    'optimizer': 'Adam',
+    'name': 'white_weapon_detection'
 }
 
 if __name__ == '__main__':
