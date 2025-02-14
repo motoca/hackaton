@@ -1,5 +1,5 @@
-# hackaton
-Projeto final Hackaton FIAP
+# Hackaton - Detecção de materiais cortantes
+Projeto final FIAP - IA PARA DEVS
 
 
 ****
@@ -9,30 +9,28 @@ Projeto final Hackaton FIAP
 * Wesley Gomes Santos - RM355677
 
 
-## Modelo YOLOv5x
+## Modelo pré treinado utilizado - YOLOv5x
 https://github.com/ultralytics/yolov5/
 
 ## Fluxo utilizado para o desenvolvimento da solução
-* Busca de imagens e preparação do DATASET no formado to YOLO
-* dataset
-   * weapons
-      * images
-          * train
-          * test
-          * val
-      - labels
-          - train
-          - test
-          - val
-            
-- BAIXAR O YOLOV5X
-- MONTAR A ESTRUTRA DO DATASET NO FORMATO DO YOLO
-- CONFIGURAR OS ARQUIVOS PARA PERSONALIZAR A EXECUÇÃO
-- EXECUTAR O TREINAMENTO COM O DATASET DE ARMAS BRANCAS
-- APOTAR PARA O ARQUIVO DO MODELO TREINADO
-- EXECUTAR A DETECÇÃO 
-- IDENTIFICAR / INFERENCIA E MARCAR O OBJETO SUSPEITO
-- ENVIAR NOTIFICAÇÃO COM A IMAGEM SUSPEITA
+  1 - Seleção das imagens e preparação do DATASET no formado to YOLO
+    * dataset
+       * weapons
+          * images
+              * train
+              * test
+              * val
+          * labels
+              * train
+              * test
+              * val
+  2 - Iniciamos o projeto com o modelo YOLOv5s e posteriormente mudamos para o YOLOv5x, que se mostrou mais performático
+  3 - Configurar os arquivos de execução do YOLO para personalizar a execução de acordo com as necessidades do projeto
+  4 - Realizar o treinamento do modelo utilizando o DATASET selecionado
+  5 - Executar a detecção de objetos cortantes utilizando o novo modelo treinado com as imagens do DATASET
+      ***/yolov5/runs/train/weapon_detection/weights***
+  6 - Realizar testes com imagens e videos
+  7 - Implementar a notificação quando um objeto for identificado e encaminhar por e-mail
 
 ## Datasets e Images
 https://storage.googleapis.com/openimages/web/visualizer/index.html?type=detection&set=train&c=%2Fm%2F04ctx
