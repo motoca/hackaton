@@ -1,0 +1,764 @@
+$ python detect.py --weights best.pt --img 640 --conf 0.5 --source data/videos/
+detect: weights=['best.pt'], source=data/videos/, data=data/weapons.yaml, imgsz=[640, 640], conf_thres=0.5, iou_thres=0.45, max_det=1000, device=, view_img=False, save_txt=False, save_format=0, save_csv=False, save_conf=False, save_crop=False, nosave=False, classes=None, agnostic_nms=False, augment=False, visualize=False, update=False, project=runs/detect, name=exp, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=False, vid_stride=1
+YOLOv5 🚀 2025-2-14 Python-3.12.7 torch-2.6.0+cu124 CPU
+
+Fusing layers... 
+YOLOv5x summary: 444 layers, 86705005 parameters, 0 gradients, 205.5 GFLOPs
+video 1/2 (71/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 scissors, 564.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (72/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 scissors, 722.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (103/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 1 carrot, 585.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (104/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 1 carrot, 551.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (105/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 3 carrots, 557.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (106/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 3 carrots, 574.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (107/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 3 carrots, 584.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (108/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 2 carrots, 558.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (109/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 1 carrot, 552.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (154/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 547.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (155/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 546.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (156/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 576.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (157/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 558.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (158/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 564.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (167/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 558.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (168/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 577.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (169/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 744.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (170/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 619.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (171/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 556.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (172/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 568.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (173/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 2 bananas, 1 orange, 1 carrot, 1 clock, 603.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (174/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 2 bananas, 1 orange, 1 carrot, 1 clock, 552.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (175/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 576.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (176/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 543.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (177/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 sports ball, 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 572.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (178/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 563.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (179/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 561.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (180/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 2 bananas, 3 apples, 1 orange, 1 clock, 541.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (181/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 3 apples, 1 orange, 1 clock, 549.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (182/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 3 apples, 1 orange, 1 clock, 555.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (183/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 558.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (184/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 2 apples, 1 orange, 1 carrot, 1 clock, 559.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (185/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 2 apples, 1 orange, 1 carrot, 1 clock, 558.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (186/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 551.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (187/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 561.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (188/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 548.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (189/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 575.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (190/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 625.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (191/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 2 apples, 1 orange, 1 carrot, 1 clock, 619.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (192/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 2 apples, 1 orange, 1 carrot, 1 clock, 541.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (193/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 2 apples, 1 orange, 1 carrot, 1 clock, 552.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (194/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 545.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (195/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 552.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (196/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 557.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (197/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 800.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (198/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 1 apple, 1 orange, 1 carrot, 1 clock, 593.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (199/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 2 apples, 1 orange, 1 carrot, 1 clock, 558.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (200/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 2 apples, 1 orange, 1 carrot, 1 clock, 548.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (201/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 552.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (202/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 548.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (203/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 549.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (204/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 547.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (205/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 562.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (206/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 577.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (207/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 560.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (208/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 2 bananas, 3 apples, 1 orange, 1 clock, 587.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (209/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 2 bananas, 3 apples, 1 orange, 1 clock, 675.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (210/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 553.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (211/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 543.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (212/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 543.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (213/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 560.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (215/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 sports ball, 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 711.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (216/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 sports ball, 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 553.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (217/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 sports ball, 1 knife, 2 bananas, 4 apples, 1 orange, 1 carrot, 561.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (218/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 sports ball, 1 knife, 2 bananas, 4 apples, 1 orange, 1 carrot, 1 clock, 581.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (219/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 579.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (220/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 sports ball, 1 knife, 2 bananas, 3 apples, 1 orange, 1 carrot, 1 clock, 570.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (221/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 2 bananas, 2 apples, 1 orange, 1 carrot, 1 clock, 553.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (222/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 2 bananas, 2 apples, 1 orange, 1 carrot, 1 clock, 600.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (223/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 sports ball, 1 knife, 2 bananas, 2 apples, 1 orange, 1 carrot, 567.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (224/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 sports ball, 1 knife, 2 bananas, 4 apples, 1 orange, 1 carrot, 555.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (225/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 sports ball, 1 knife, 2 bananas, 4 apples, 1 orange, 1 carrot, 545.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (226/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 sports ball, 1 knife, 2 bananas, 4 apples, 1 orange, 1 carrot, 578.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (227/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 3 bananas, 5 apples, 2 oranges, 1 carrot, 1 clock, 545.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (228/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 knife, 3 bananas, 5 apples, 1 orange, 1 carrot, 1 clock, 549.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (229/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 sports ball, 1 knife, 3 bananas, 6 apples, 1 orange, 1 carrot, 1 clock, 548.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (230/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 sports ball, 1 knife, 3 bananas, 6 apples, 1 orange, 1 carrot, 1 clock, 748.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (231/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 sports ball, 1 knife, 3 bananas, 6 apples, 1 orange, 1 clock, 549.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (232/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 sports ball, 1 knife, 3 bananas, 6 apples, 2 oranges, 1 clock, 558.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (233/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 sports ball, 1 knife, 3 bananas, 6 apples, 2 oranges, 1 clock, 633.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (234/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 knife, 3 bananas, 6 apples, 2 oranges, 1 clock, 558.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (235/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 knife, 3 bananas, 8 apples, 2 oranges, 1 clock, 568.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (236/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 frisbee, 1 knife, 3 bananas, 7 apples, 2 oranges, 1 clock, 560.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (237/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 3 bananas, 7 apples, 2 oranges, 1 clock, 544.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (238/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 3 bananas, 7 apples, 2 oranges, 1 clock, 558.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (239/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 3 bananas, 7 apples, 2 oranges, 1 clock, 549.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (240/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 3 bananas, 6 apples, 2 oranges, 1 clock, 637.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (241/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 sports ball, 1 knife, 3 bananas, 6 apples, 2 oranges, 1 clock, 575.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (242/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 3 bananas, 5 apples, 2 oranges, 1 clock, 546.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (243/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 3 bananas, 5 apples, 2 oranges, 1 clock, 569.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (244/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 3 bananas, 5 apples, 2 oranges, 1 clock, 549.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (245/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 2 bananas, 5 apples, 2 oranges, 1 clock, 580.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (246/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 2 bananas, 5 apples, 2 oranges, 1 clock, 569.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (247/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 6 apples, 2 oranges, 1 clock, 546.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (248/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 6 apples, 2 oranges, 1 carrot, 1 clock, 560.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (249/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 6 apples, 2 oranges, 1 clock, 549.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (250/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 2 bananas, 5 apples, 2 oranges, 1 clock, 556.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (251/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 6 apples, 2 oranges, 1 clock, 568.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (252/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 2 bananas, 5 apples, 2 oranges, 1 carrot, 1 clock, 556.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (253/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 5 apples, 2 oranges, 1 carrot, 1 clock, 562.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (254/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 2 bananas, 6 apples, 2 oranges, 1 carrot, 1 clock, 559.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (255/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 2 bananas, 6 apples, 2 oranges, 1 carrot, 1 clock, 563.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (256/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 2 bananas, 6 apples, 2 oranges, 1 carrot, 1 clock, 570.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (257/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 3 bananas, 9 apples, 2 oranges, 1 carrot, 1 clock, 564.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (258/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 3 bananas, 8 apples, 2 oranges, 1 carrot, 1 clock, 611.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (259/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 3 bananas, 5 apples, 2 oranges, 1 carrot, 1 clock, 581.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (260/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 3 bananas, 5 apples, 2 oranges, 1 carrot, 1 clock, 554.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (267/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 552.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (268/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 clock, 546.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (272/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 555.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (284/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 1 apple, 582.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (293/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 604.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (294/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 555.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (305/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 stop sign, 1 frisbee, 1 knife, 1 donut, 538.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (306/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 stop sign, 1 frisbee, 1 knife, 1 donut, 563.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (307/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 stop sign, 1 knife, 542.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (308/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 580.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (312/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 561.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (313/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 548.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (314/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 donut, 541.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (315/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 1 donut, 555.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (316/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 donut, 553.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (317/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 knife, 584.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (329/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 1 clock, 552.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (330/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 1 clock, 545.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (331/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 1 clock, 599.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (332/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 1 clock, 545.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (334/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 1 clock, 632.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (340/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 1 clock, 552.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (341/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 1 clock, 564.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (342/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 1 clock, 568.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (345/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 1 clock, 545.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (346/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 frisbee, 1 knife, 1 clock, 566.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (456/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 557.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (457/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 559.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (458/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 544.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (459/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 548.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (472/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 568.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (479/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 670.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (497/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 scissors, 556.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (498/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 scissors, 559.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (499/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 scissors, 569.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (504/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 692.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (505/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 570.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (518/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 541.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (519/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 563.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (520/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 557.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (521/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 545.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (522/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 566.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (523/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 550.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (524/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 580.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (525/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 583.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (527/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 565.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (530/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 553.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (531/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 816.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (532/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 540.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (533/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 frisbee, 1 knife, 565.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (534/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 551.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (540/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 541.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (541/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 554.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (542/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 551.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (543/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 541.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (544/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 544.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (545/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 554.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (546/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 563.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (547/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 571.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (548/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 551.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (549/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 611.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (550/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 546.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (551/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 538.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (552/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 558.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (553/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 569.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (554/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 552.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (555/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 552.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (556/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 555.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (557/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 572.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (558/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 557.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (559/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 546.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (560/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 557.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (561/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 544.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (562/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 545.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (563/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 605.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (564/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 579.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (565/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 550.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (566/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 576.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (567/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 569.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (568/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 555.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (569/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 542.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (570/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 557.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (571/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 578.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (572/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 539.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (573/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 558.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (574/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 555.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (575/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 555.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (576/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 551.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (577/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 584.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (578/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 548.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (579/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 555.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (580/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 570.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (581/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 584.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (582/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 558.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (583/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 563.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (584/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 561.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (585/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 574.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (586/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 541.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (587/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 547.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (588/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 552.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (589/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 569.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (590/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 568.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (591/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 562.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (592/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 634.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (593/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 674.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (594/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 611.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (595/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 traffic light, 1 knife, 579.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (596/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 542.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (597/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 542.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (598/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 2 persons, 2 sports balls, 1 knife, 549.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (599/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 2 persons, 2 sports balls, 1 knife, 590.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (604/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 2 persons, 2 sports balls, 1 knife, 538.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (605/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 2 persons, 2 sports balls, 1 knife, 568.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (606/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 2 persons, 2 sports balls, 1 knife, 625.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (610/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 2 persons, 2 sports balls, 1 knife, 541.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (614/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 551.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (616/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 2 sports balls, 1 knife, 546.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (620/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 549.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (621/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 565.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (622/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 546.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (623/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 554.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (624/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 560.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (626/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 2 persons, 1 sports ball, 1 knife, 550.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (627/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 2 persons, 2 sports balls, 1 knife, 564.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (628/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 2 persons, 2 sports balls, 1 knife, 549.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (629/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 2 persons, 1 sports ball, 1 knife, 579.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (669/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 2 persons, 1 sports ball, 1 knife, 559.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (672/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 1 bowl, 542.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (673/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 sports ball, 1 knife, 1 bowl, 546.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (704/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 bowl, 558.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (705/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 569.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (706/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 2 persons, 1 knife, 565.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (707/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 2 persons, 1 knife, 554.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (725/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 547.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (726/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 556.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (727/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 560.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (728/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 580.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (729/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 541.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (730/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 554.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (731/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 576.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (732/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 543.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (733/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 561.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (734/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 578.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (735/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 566.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (736/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 584.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (737/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 550.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (738/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 550.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (739/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 629.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (740/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 1 sink, 601.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (741/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 1 sink, 545.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (742/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 1 sink, 559.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (743/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 1 sink, 558.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (744/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 1 sink, 545.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (745/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 1 sink, 561.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (746/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 572.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (747/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 601.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (748/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 583.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (749/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 544.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (750/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 563.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (751/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 556.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (752/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 567.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (753/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 chair, 545.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (754/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 chair, 606.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (755/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 1 chair, 585.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (756/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 chair, 546.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (757/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 chair, 556.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (758/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 1 chair, 573.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (759/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 551.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (760/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 547.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (765/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 apple, 549.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (772/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 dining table, 559.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (773/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 dining table, 557.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (797/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 551.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (798/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 547.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (799/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 560.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (800/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 knife, 1 chair, 1 dining table, 578.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1022/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 551.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1023/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 682.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1024/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 596.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1025/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 562.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1026/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 556.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1027/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 547.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1028/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 548.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1029/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 547.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1030/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 573.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1031/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 593.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1032/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 558.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1033/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 575.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1034/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 563.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1035/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 551.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1036/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 555.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1037/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 563.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1038/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 600.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1039/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 557.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1040/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 564.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1041/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 584.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1042/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 542.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1043/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 552.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1044/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 550.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1045/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 563.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1046/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 549.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1047/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 547.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1048/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 569.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1049/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 542.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1050/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 589.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1051/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 596.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1052/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 569.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1053/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 562.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1054/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 600.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1055/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 545.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1056/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 579.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1057/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 563.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1058/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 602.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1059/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 550.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1060/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 561.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1061/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 542.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1062/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 562.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1063/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 542.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1064/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 567.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1065/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 547.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1066/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 546.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1067/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 570.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1068/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 550.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1069/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 548.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1070/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 559.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1071/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 544.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1072/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 585.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1073/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 575.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1074/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 545.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1075/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 547.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1076/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 545.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1077/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 561.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1078/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 560.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1079/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 550.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1080/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 552.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1081/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 551.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1082/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 575.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1083/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 4 knifes, 601.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1084/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 588.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1085/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 550.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1086/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 562.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1087/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 543.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1088/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 552.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1089/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 543.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1090/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 568.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1091/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 545.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1092/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 554.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1093/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 548.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1094/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 554.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1095/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 557.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1096/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 550.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1097/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 547.8ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1098/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 563.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1099/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 549.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1100/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 545.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1101/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 570.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1102/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 552.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1103/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 567.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1104/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 565.4ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1105/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 618.7ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1106/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 549.3ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1107/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 544.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1108/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 549.6ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1109/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 565.0ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1110/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 551.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1111/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 552.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1112/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 581.5ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1113/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 711.2ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1114/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 635.9ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1115/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 545.1ms
+Alerta!!!! Material cortante detectado!!!!
+video 1/2 (1116/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 4 knifes, 545.6ms
+Alerta!!!! Material cortante detectado!!!!
+Speed: 0.3ms pre-process, 563.1ms inference, 0.7ms NMS per image at shape (1, 3, 640, 640)
+Results saved to runs/detect/exp12
