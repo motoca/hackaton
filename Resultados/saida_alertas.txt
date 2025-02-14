@@ -1,9 +1,9 @@
-$ python detect.py --weights best.pt --img 640 --conf 0.5 --source data/videos/
-detect: weights=['best.pt'], source=data/videos/, data=data/weapons.yaml, imgsz=[640, 640], conf_thres=0.5, iou_thres=0.45, max_det=1000, device=, view_img=False, save_txt=False, save_format=0, save_csv=False, save_conf=False, save_crop=False, nosave=False, classes=None, agnostic_nms=False, augment=False, visualize=False, update=False, project=runs/detect, name=exp, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=False, vid_stride=1
+$ python detect.py --weights detect.pt --img 640 --conf 0.5 --source data/videos/
+detect: weights=['detect.pt'], source=data/videos/, data=data/weapons.yaml, imgsz=[640, 640], conf_thres=0.5, iou_thres=0.45, max_det=1000, device=, view_img=False, save_txt=False, save_format=0, save_csv=False, save_conf=False, save_crop=False, nosave=False, classes=None, agnostic_nms=False, augment=False, visualize=False, update=False, project=runs/detect, name=exp, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=False, vid_stride=1
 YOLOv5 🚀 2025-2-14 Python-3.12.7 torch-2.6.0+cu124 CPU
 
 Fusing layers... 
-YOLOv5x summary: 444 layers, 86705005 parameters, 0 gradients, 205.5 GFLOPs
+detect summary: 444 layers, 86705005 parameters, 0 gradients, 205.5 GFLOPs
 video 1/2 (71/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 scissors, 564.9ms
 Alerta!!!! Material cortante detectado!!!!
 video 1/2 (72/1264) /home/silas/Documents/ECT/Cursos/FIAP/IAparaDEVs/projetos/git/hackaton/white_weapon_detection/yolov5/data/videos/video.mp4: 384x640 1 person, 1 scissors, 722.1ms
