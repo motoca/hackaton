@@ -14,16 +14,16 @@ https://github.com/ultralytics/yolov5/
 
 ## Fluxo utilizado para o desenvolvimento da solução
 * 1 - Seleção das imagens e preparação do DATASET no formado to YOLO
-*   - dataset
-*      - weapons
-*         - images
-              * train
-              * test
-              * val
-          * labels
-              * train
-              * test
-              * val
+*     - dataset
+        - weapons
+           - images
+              - train
+              - test
+              - val
+          - labels
+              - train
+              _ test
+              _ val
   
 * 2 - Iniciamos o projeto com o modelo YOLOv5s e posteriormente mudamos para o YOLOv5x, que se mostrou mais performático
 * 3 - Configurar os arquivos de execução do YOLO para personalizar a execução de acordo com as necessidades do projeto
