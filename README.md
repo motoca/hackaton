@@ -38,7 +38,7 @@ https://github.com/ultralytics/yolov5/
 
 7 - Implementar a notificação quando um objeto for identificado e encaminhar por e-mail
 
-8 - Exportar o modelo e publicar no Huggingface
+8 - Gerar a pasta de resultados com o arquivo de saída.
 
 ## Datasets e Images
 https://storage.googleapis.com/openimages/web/visualizer/index.html?type=detection&set=train&c=%2Fm%2F04ctx

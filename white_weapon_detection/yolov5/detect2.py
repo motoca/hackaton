@@ -68,7 +68,7 @@ from utils.torch_utils import select_device, smart_inference_mode
 
 @smart_inference_mode()
 def run(
-    weights=ROOT / "best.pt",  # model path or triton URL
+    weights=ROOT / "yolov5x.pt",  # model path or triton URL
     source=ROOT / "data/videos",  # file/dir/URL/glob/screen/0(webcam)
     data=ROOT / "data/weapons.yaml",  # dataset.yaml path
     imgsz=(640, 640),  # inference size (height, width)
