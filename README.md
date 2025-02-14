@@ -14,14 +14,17 @@ https://github.com/ultralytics/yolov5/
 
 ## Fluxo utilizado para o desenvolvimento da solução
 * Busca de imagens e preparação do DATASET no formado to YOLO
-* ├── datasets/
-│   └── weapons/
-│       ├── images/
-│       │   ├── train/
-│       │   └── val/
-│       └── labels/
-│           ├── train/
-│           └── val/
+* dataset
+   - weapons
+      - images
+          - train
+          - test
+          - val
+      - labels
+          - train
+          - test
+          - val
+            
 - BAIXAR O YOLOV5X
 - MONTAR A ESTRUTRA DO DATASET NO FORMATO DO YOLO
 - CONFIGURAR OS ARQUIVOS PARA PERSONALIZAR A EXECUÇÃO
