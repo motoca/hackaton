@@ -16,7 +16,7 @@ seaborn>=0.11.0
 # Export
 coremltools>=5.2.0
 onnx>=1.9.0
-scikit-learn==0.19.2  # para OpenVINO 2022.1
+scikit-learn #==0.19.2  # para OpenVINO 2022.1
 
 # Logging
 tensorboard>=2.4.1
