@@ -29,5 +29,5 @@ thop>=0.1.1  # FLOPs calculation
 ipython  # para visualização
 
 # Extra (opcional para detecção em vídeo)
-pafy>=1.5.5
+pafy>=0.5.5
 youtube-dl>=2021.12.17
