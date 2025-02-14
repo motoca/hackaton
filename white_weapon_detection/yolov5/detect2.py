@@ -3,7 +3,7 @@
 Run YOLOv5 detection inference on images, videos, directories, globs, YouTube, webcam, streams, etc.
 
 Usage - sources:
-    $ python detect.py --weights yolov5x.pt --source 0                               # webcam
+    $ python detect.py --weights yolov5s.pt --source 0                               # webcam
                                                      img.jpg                         # image
                                                      vid.mp4                         # video
                                                      screen                          # screenshot
@@ -15,17 +15,17 @@ Usage - sources:
                                                      'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
 
 Usage - formats:
-    $ python detect.py --weights yolov5x.pt                 # PyTorch
-                                 yolov5x.torchscript        # TorchScript
-                                 yolov5x.onnx               # ONNX Runtime or OpenCV DNN with --dnn
-                                 yolov5x_openvino_model     # OpenVINO
-                                 yolov5x.engine             # TensorRT
-                                 yolov5x.mlpackage          # CoreML (macOS-only)
-                                 yolov5x_saved_model        # TensorFlow SavedModel
-                                 yolov5x.pb                 # TensorFlow GraphDef
-                                 yolov5x.tflite             # TensorFlow Lite
-                                 yolov5x_edgetpu.tflite     # TensorFlow Edge TPU
-                                 yolov5x_paddle_model       # PaddlePaddle
+    $ python detect.py --weights yolov5s.pt                 # PyTorch
+                                 yolov5s.torchscript        # TorchScript
+                                 yolov5s.onnx               # ONNX Runtime or OpenCV DNN with --dnn
+                                 yolov5s_openvino_model     # OpenVINO
+                                 yolov5s.engine             # TensorRT
+                                 yolov5s.mlpackage          # CoreML (macOS-only)
+                                 yolov5s_saved_model        # TensorFlow SavedModel
+                                 yolov5s.pb                 # TensorFlow GraphDef
+                                 yolov5s.tflite             # TensorFlow Lite
+                                 yolov5s_edgetpu.tflite     # TensorFlow Edge TPU
+                                 yolov5s_paddle_model       # PaddlePaddle
 """
 
 import argparse
@@ -36,7 +36,6 @@ import sys
 from pathlib import Path
 
 import torch
-from datetime import datetime, timedelta
 
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[0]  # YOLOv5 root directory
@@ -66,60 +65,14 @@ from utils.general import (
 )
 from utils.torch_utils import select_device, smart_inference_mode
 
-import email.message
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.image import MIMEImage
-from email.mime.text import MIMEText
- 
-def enviar_email(imagem_binaria=None):
-   
-    smtp_server = "smtp.mail.yahoo.com"
-    smtp_port = 465
-    senha = "mavzqwqmrbpuiuxt"
-    destinatario = 'motoca@gmail.com' #g12_1iadt.fiap@yahoo.com;
-    remetente = 'hiomone@yahoo.com'
-    remetente_from = f'Sistema de deteccao de objetos cortantes <{remetente}>'
-    subject = "Alerta, frame com objeto(s) cortante(s)."
-    conteudo = '''
-    <html>
-      <body>
-        <p>Alerta! Frame com utensílho(s) cortante(s).</p>
-        <br/>
-        <img src="cid:imagem">
-      </body>
-    </html>    
-    '''
-    msg = MIMEMultipart()
-    msg["Subject"] = subject
-    msg["From"] = remetente_from
-    msg["To"] = destinatario
-
-    # Incorpora a imagem ao corpo do e-mail
-    imagem = MIMEImage(imagem_binaria)
-    imagem.add_header('Content-ID', '<imagem>')  # Define um Content-ID único
-    msg.attach(imagem)
-
-
-    msg.add_header("Content-Type","text/html")
-    msg.add_header("Content-Transfer-Encoding", "binary")
-    msg.attach(MIMEText(conteudo, 'html'))
-
-    try: 
-        with smtplib.SMTP_SSL(smtp_server, smtp_port) as server:
-            server.login(remetente, senha)
-            server.sendmail(remetente, destinatario, msg.as_string())
-            print("Email enviado.")
-    except Exception as e:
-          print(f"Erro ao enviar e-mail: {e}")
 
 @smart_inference_mode()
 def run(
-    weights=ROOT / "yolov5x.pt",  # model path or triton URL
-    source=ROOT / "data/images",  # file/dir/URL/glob/screen/0(webcam)
+    weights=ROOT / "best.pt",  # model path or triton URL
+    source=ROOT / "data/videos",  # file/dir/URL/glob/screen/0(webcam)
     data=ROOT / "data/weapons.yaml",  # dataset.yaml path
     imgsz=(640, 640),  # inference size (height, width)
-    conf_thres=0.50,  # confidence threshold
+    conf_thres=0.25,  # confidence threshold
     iou_thres=0.45,  # NMS IOU threshold
     max_det=1000,  # maximum detections per image
     device="",  # cuda device, i.e. 0 or 0,1,2,3 or cpu
@@ -149,10 +102,10 @@ def run(
     Runs YOLOv5 detection inference on various sources like images, videos, directories, streams, etc.
 
     Args:
-        weights (str | Path): Path to the model weights file or a Triton URL. Default is 'yolov5x.pt'.
+        weights (str | Path): Path to the model weights file or a Triton URL. Default is 'yolov5s.pt'.
         source (str | Path): Input source, which can be a file, directory, URL, glob pattern, screen capture, or webcam
             index. Default is 'data/images'.
-        data (str | Path): Path to the dataset YAML file. Default is 'data/weapons.yaml'.
+        data (str | Path): Path to the dataset YAML file. Default is 'data/coco128.yaml'.
         imgsz (tuple[int, int]): Inference image size as a tuple (height, width). Default is (640, 640).
         conf_thres (float): Confidence threshold for detections. Default is 0.25.
         iou_thres (float): Intersection Over Union (IOU) threshold for non-max suppression. Default is 0.45.
@@ -189,10 +142,10 @@ def run(
         from ultralytics import run
 
         # Run inference on an image
-        run(source='data/images/example.jpg', weights='yolov5x.pt', device='0')
+        run(source='data/images/example.jpg', weights='yolov5s.pt', device='0')
 
         # Run inference on a video with specific confidence threshold
-        run(source='data/videos/example.mp4', weights='yolov5x.pt', conf_thres=0.4, device='0')
+        run(source='data/videos/example.mp4', weights='yolov5s.pt', conf_thres=0.4, device='0')
         ```
     """
     source = str(source)
@@ -225,8 +178,6 @@ def run(
     else:
         dataset = LoadImages(source, img_size=imgsz, stride=stride, auto=pt, vid_stride=vid_stride)
     vid_path, vid_writer = [None] * bs, [None] * bs
-
-    data_ultima_deteccao = datetime.now()
 
     # Run inference
     model.warmup(imgsz=(1 if pt or model.triton else bs, 3, *imgsz))  # warmup
@@ -358,20 +309,7 @@ def run(
                     vid_writer[i].write(im0)
 
         # Print time (inference-only)
-        if not data_ultima_deteccao:
-            data_ultima_deteccao = datetime - timedelta(seconds=31)
-        
-        weaponDetected = False
-        for weaponType in ['knife', 'scissors', 'dagger', 'pocketknife', 'other']:
-            if weaponType in s:
-                weaponDetected = True
-
-        if weaponDetected:
-            LOGGER.info(f"{s}{'' if len(det) else '(no detections), '}{dt[1].dt * 1e3:.1f}ms")
-            LOGGER.info(f"Alerta!!!! Material cortante detectado!!!!")
-            if datetime.now() - data_ultima_deteccao >= timedelta(seconds=30):
-                enviar_email(imagem_binaria=im0)
-                data_ultima_deteccao = datetime.now()
+        LOGGER.info(f"{s}{'' if len(det) else '(no detections), '}{dt[1].dt * 1e3:.1f}ms")
 
     # Print results
     t = tuple(x.t / seen * 1e3 for x in dt)  # speeds per image
@@ -388,7 +326,7 @@ def parse_opt():
     Parse command-line arguments for YOLOv5 detection, allowing custom inference options and model configurations.
 
     Args:
-        --weights (str | list[str], optional): Model path or Triton URL. Defaults to ROOT / 'yolov5x.pt'.
+        --weights (str | list[str], optional): Model path or Triton URL. Defaults to ROOT / 'yolov5s.pt'.
         --source (str, optional): File/dir/URL/glob/screen/0(webcam). Defaults to ROOT / 'data/images'.
         --data (str, optional): Dataset YAML path. Provides dataset configuration information.
         --imgsz (list[int], optional): Inference size (height, width). Defaults to [640].
@@ -428,9 +366,9 @@ def parse_opt():
         ```
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument("--weights", nargs="+", type=str, default=ROOT / "yolov5x.pt", help="model path or triton URL")
+    parser.add_argument("--weights", nargs="+", type=str, default=ROOT / "yolov5s.pt", help="model path or triton URL")
     parser.add_argument("--source", type=str, default=ROOT / "data/images", help="file/dir/URL/glob/screen/0(webcam)")
-    parser.add_argument("--data", type=str, default=ROOT / "data/weapons.yaml", help="(optional) dataset.yaml path")
+    parser.add_argument("--data", type=str, default=ROOT / "data/coco128.yaml", help="(optional) dataset.yaml path")
     parser.add_argument("--imgsz", "--img", "--img-size", nargs="+", type=int, default=[640], help="inference size h,w")
     parser.add_argument("--conf-thres", type=float, default=0.25, help="confidence threshold")
     parser.add_argument("--iou-thres", type=float, default=0.45, help="NMS IoU threshold")
