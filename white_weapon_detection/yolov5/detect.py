@@ -36,6 +36,7 @@ import sys
 from pathlib import Path
 
 import torch
+from datetime import datetime, timedelta
 
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[0]  # YOLOv5 root directory
@@ -76,10 +77,10 @@ def enviar_email(imagem_binaria=None):
     smtp_server = "smtp.mail.yahoo.com"
     smtp_port = 465
     senha = "mavzqwqmrbpuiuxt"
-    destinatario = 'g12_1iadt.fiap@yahoo.com'
+    destinatario = 'g12_1iadt.fiap@yahoo.com;motoca@gmail.com'
     remetente = 'hiomone@yahoo.com'
     remetente_from = f'Sistema de deteccao de objetos cortantes <{remetente}>'
-    subject = "Alerta, frame com utensilho(s) cortante(s)."
+    subject = "Alerta, frame com objeto(s) cortante(s)."
     conteudo = '''
     <html>
       <body>
@@ -112,14 +113,13 @@ def enviar_email(imagem_binaria=None):
     except Exception as e:
           print(f"Erro ao enviar e-mail: {e}")
 
-data_ultima_deteccao = None
 @smart_inference_mode()
 def run(
     weights=ROOT / "yolov5x.pt",  # model path or triton URL
     source=ROOT / "data/images",  # file/dir/URL/glob/screen/0(webcam)
     data=ROOT / "data/weapons.yaml",  # dataset.yaml path
     imgsz=(640, 640),  # inference size (height, width)
-    conf_thres=0.25,  # confidence threshold
+    conf_thres=0.50,  # confidence threshold
     iou_thres=0.45,  # NMS IOU threshold
     max_det=1000,  # maximum detections per image
     device="",  # cuda device, i.e. 0 or 0,1,2,3 or cpu
@@ -225,6 +225,8 @@ def run(
     else:
         dataset = LoadImages(source, img_size=imgsz, stride=stride, auto=pt, vid_stride=vid_stride)
     vid_path, vid_writer = [None] * bs, [None] * bs
+
+    data_ultima_deteccao = datetime.now()
 
     # Run inference
     model.warmup(imgsz=(1 if pt or model.triton else bs, 3, *imgsz))  # warmup
@@ -357,7 +359,7 @@ def run(
 
         # Print time (inference-only)
         if not data_ultima_deteccao:
-            data_ultima_deteccao = datetime.now()
+            data_ultima_deteccao = datetime
         
         weaponDetected = False
         for weaponType in ['knife', 'scissors', 'dagger', 'pocketknife', 'other']:

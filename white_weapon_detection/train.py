@@ -3,8 +3,8 @@ from yolov5 import train, val
 
 # Configurações
 config = {
-    'epochs': 100,
-    'batch-size': 16,
+    'epochs': 30,
+    'batch-size': 32,
     'img-size': 640,
     'data': 'weapons.yaml',
     'cfg': 'yolov5s.yaml',
