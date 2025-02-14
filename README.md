@@ -50,11 +50,7 @@ https://iaexpert.academy/2020/10/13/deteccao-de-objetos-com-yolo-uma-abordagem-m
 
 
 ### Como executar o projeto
-- Python 3.8 ou superior
-- git clone https://github.com/motoca/hackaton.git
-- cd white_weapon_detection
-- pip install -r requirements.txt
-- python detect.py
+Usar o arquivo hachaton-final.ipynb no Google Collab
 
 ### Tempo de execução do treinamento
 with torch.cuda.amp.autocast(amp):
