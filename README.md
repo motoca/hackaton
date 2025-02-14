@@ -13,7 +13,7 @@ Projeto final FIAP - IA PARA DEVS
 https://github.com/ultralytics/yolov5/
 
 ## Fluxo utilizado para o desenvolvimento da solução
-1 - Seleção das imagens e preparação do DATASET no formado to YOLO
+   1 - Seleção das imagens e preparação do DATASET no formado to YOLO
 *     - dataset
         - weapons
            - images
@@ -26,13 +26,13 @@ https://github.com/ultralytics/yolov5/
               _ val
   
   2 - Iniciamos o projeto com o modelo YOLOv5s e posteriormente mudamos para o YOLOv5x, que se mostrou mais performático
-* 3 - Configurar os arquivos de execução do YOLO para personalizar a execução de acordo com as necessidades do projeto
-* 4 - Realizar o treinamento do modelo utilizando o DATASET selecionado
-* 5 - Executar a detecção de objetos cortantes utilizando o novo modelo treinado com as imagens do DATASET
-        ***/yolov5/runs/train/weapon_detection/weights***
-* 6 - Realizar testes com imagens e videos
-* 7 - Implementar a notificação quando um objeto for identificado e encaminhar por e-mail
-* 8 - Exportar o modelo e publicar no Huggingface
+  3 - Configurar os arquivos de execução do YOLO para personalizar a execução de acordo com as necessidades do projeto
+  4 - Realizar o treinamento do modelo utilizando o DATASET selecionado
+  5 - Executar a detecção de objetos cortantes utilizando o novo modelo treinado com as imagens do DATASET
+      ***/yolov5/runs/train/weapon_detection/weights***
+  6 - Realizar testes com imagens e videos
+  7 - Implementar a notificação quando um objeto for identificado e encaminhar por e-mail
+  8 - Exportar o modelo e publicar no Huggingface
 
 ## Datasets e Images
 https://storage.googleapis.com/openimages/web/visualizer/index.html?type=detection&set=train&c=%2Fm%2F04ctx
