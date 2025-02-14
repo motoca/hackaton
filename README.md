@@ -14,7 +14,7 @@ https://github.com/ultralytics/yolov5/
 
 ## Fluxo utilizado para o desenvolvimento da solução
 1 - Seleção das imagens e preparação do DATASET no formado to YOLO
-***     - dataset
+*     - dataset
         - weapons
            - images
               - train
