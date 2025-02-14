@@ -1,14 +1,19 @@
 import torch
 from yolov5 import train, val
+import sys
 
+if not sys.warnoptions:
+    import warnings
+    warnings.simplefilter("ignore")
+    
 # Configurações
 config = {
-    'epochs': 30,
-    'batch-size': 32,
+    'epochs': 1,
+    'batch-size': 16,
     'img-size': 640,
     'data': 'weapons.yaml',
-    'cfg': 'yolov5s.yaml',
-    'weights': 'yolov5s.pt',
+    'cfg': 'yolov5x.yaml',
+    'weights': 'yolov5x.pt',
     'name': 'weapon_detection'
 }
 
