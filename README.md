@@ -13,7 +13,7 @@ Projeto final FIAP - IA PARA DEVS
 https://github.com/ultralytics/yolov5/
 
 ## Fluxo utilizado para o desenvolvimento da solução
-*1 - Seleção das imagens e preparação do DATASET no formado to YOLO
+1 - Seleção das imagens e preparação do DATASET no formado to YOLO
      - dataset
         - weapons
            - images
