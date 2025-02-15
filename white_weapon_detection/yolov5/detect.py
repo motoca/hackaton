@@ -72,46 +72,46 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
 from email.mime.text import MIMEText
  
-def enviar_email(imagem_binaria=None):
+# def enviar_email(imagem_binaria=None):
    
-    smtp_server = "smtp.mail.yahoo.com"
-    smtp_port = 465
-    senha = "mavzqwqmrbpuiuxt"
-    destinatario = 'motoca@gmail.com' #g12_1iadt.fiap@yahoo.com;
-    remetente = 'hiomone@yahoo.com'
-    remetente_from = f'Sistema de deteccao de objetos cortantes <{remetente}>'
-    subject = "Alerta, frame com objeto(s) cortante(s)."
-    conteudo = '''
-    <html>
-      <body>
-        <p>Alerta! Frame com utensílho(s) cortante(s).</p>
-        <br/>
-        <img src="cid:imagem">
-      </body>
-    </html>    
-    '''
-    msg = MIMEMultipart()
-    msg["Subject"] = subject
-    msg["From"] = remetente_from
-    msg["To"] = destinatario
+#     smtp_server = "smtp.mail.yahoo.com"
+#     smtp_port = 465
+#     senha = "mavzqwqmrbpuiuxt"
+#     destinatario = 'motoca@gmail.com' #g12_1iadt.fiap@yahoo.com;
+#     remetente = 'hiomone@yahoo.com'
+#     remetente_from = f'Sistema de deteccao de objetos cortantes <{remetente}>'
+#     subject = "Alerta, frame com objeto(s) cortante(s)."
+#     conteudo = '''
+#     <html>
+#       <body>
+#         <p>Alerta! Frame com utensílho(s) cortante(s).</p>
+#         <br/>
+#         <img src="cid:imagem">
+#       </body>
+#     </html>    
+#     '''
+#     msg = MIMEMultipart()
+#     msg["Subject"] = subject
+#     msg["From"] = remetente_from
+#     msg["To"] = destinatario
 
-    # Incorpora a imagem ao corpo do e-mail
-    imagem = MIMEImage(imagem_binaria)
-    imagem.add_header('Content-ID', '<imagem>')  # Define um Content-ID único
-    msg.attach(imagem)
+#     # Incorpora a imagem ao corpo do e-mail
+#     imagem = MIMEImage(imagem_binaria)
+#     imagem.add_header('Content-ID', '<imagem>')  # Define um Content-ID único
+#     msg.attach(imagem)
 
 
-    msg.add_header("Content-Type","text/html")
-    msg.add_header("Content-Transfer-Encoding", "binary")
-    msg.attach(MIMEText(conteudo, 'html'))
+#     msg.add_header("Content-Type","text/html")
+#     msg.add_header("Content-Transfer-Encoding", "binary")
+#     msg.attach(MIMEText(conteudo, 'html'))
 
-    try: 
-        with smtplib.SMTP_SSL(smtp_server, smtp_port) as server:
-            server.login(remetente, senha)
-            server.sendmail(remetente, destinatario, msg.as_string())
-            print("Email enviado.")
-    except Exception as e:
-          print(f"Erro ao enviar e-mail: {e}")
+#     try: 
+#         with smtplib.SMTP_SSL(smtp_server, smtp_port) as server:
+#             server.login(remetente, senha)
+#             server.sendmail(remetente, destinatario, msg.as_string())
+#             print("Email enviado.")
+#     except Exception as e:
+#           print(f"Erro ao enviar e-mail: {e}")
 
 @smart_inference_mode()
 def run(
@@ -367,10 +367,10 @@ def run(
                 weaponDetected = True
 
         if weaponDetected:
-            LOGGER.info(f"{s}{'' if len(det) else '(no detections), '}{dt[1].dt * 1e3:.1f}ms")
+            # LOGGER.info(f"{s}{'' if len(det) else '(no detections), '}{dt[1].dt * 1e3:.1f}ms")
             LOGGER.info(f"Alerta!!!! Material cortante detectado!!!!")
             if datetime.now() - data_ultima_deteccao >= timedelta(seconds=30):
-                enviar_email(imagem_binaria=im0)
+                # enviar_email(imagem_binaria=im0)
                 data_ultima_deteccao = datetime.now()
 
     # Print results
