@@ -40,7 +40,7 @@ https://github.com/ultralytics/yolov5/
 
 8 - Gerar a pasta de resultados com o arquivo de saída.
 
-9 - Video de apresentação do projeto (https://youtu.be/qztjWx1qC34)
+9 - Video de apresentação do projeto (https://youtu.be/WpfZFECY7hA)
 
 ## Datasets e Images
 https://storage.googleapis.com/openimages/web/visualizer/index.html?type=detection&set=train&c=%2Fm%2F04ctx
