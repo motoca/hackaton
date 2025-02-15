@@ -44,6 +44,7 @@ https://github.com/ultralytics/yolov5/
 
 ## Datasets e Images
 https://storage.googleapis.com/openimages/web/visualizer/index.html?type=detection&set=train&c=%2Fm%2F04ctx
+
 https://universe.roboflow.com/ai-zone/weapon-detection-rylag-rtqjy/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true
 
 
